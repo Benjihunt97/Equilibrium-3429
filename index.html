@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <title>Document</title>
 </head>
 <body class="grid place-items-center min-h-screen bg-[#0D1A2D]">
 
-    <div class="bg-[#15273F] p-5 text-white rounded-lg w-[350px]">
-        <div class="relative">
-            <img src="hero.png" alt="">
-            <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" class="absolute"><path d="M0 0h48v48H0z"/><path d="M24 9C14 9 5.46 15.22 2 24c3.46 8.78 12 15 22 15 10.01 0 18.54-6.22 22-15-3.46-8.78-11.99-15-22-15Zm0 25c-5.52 0-10-4.48-10-10s4.48-10 10-10 10 4.48 10 10-4.48 10-10 10Zm0-16c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6Z" fill="#FFF" fill-rule="nonzero"/></g></svg>
+    <div class="bg-[#15273F] p-7 text-white rounded-lg w-[350px]">
+        <div class="relative rounded-md overflow-hidden hero">
+            <img src="https://github.com/Benjihunt97/Equilibrium-3429/blob/main/hero.jpg?raw=true" alt="" class="">
+            <div class="grid place-items-center absolute w-full h-full top-0 bg-[#00FFF8]/[.4] opacity-0 svg">
+                <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="none" fill-rule="evenodd">
+                        <path d="M0 0h48v48H0z" />
+                        <path
+                            d="M24 9C14 9 5.46 15.22 2 24c3.46 8.78 12 15 22 15 10.01 0 18.54-6.22 22-15-3.46-8.78-11.99-15-22-15Zm0 25c-5.52 0-10-4.48-10-10s4.48-10 10-10 10 4.48 10 10-4.48 10-10 10Zm0-16c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6Z"
+                            fill="#FFF" fill-rule="nonzero" />
+                    </g>
+                </svg>
+            </div>
         </div>
 
-        <h1 class="font-bold text-lg">Equilibrium #3429</h1>
+        <h1 class="font-bold text-lg mt-5 hover:text-[#00FFF8] cursor-pointer">Equilibrium #3429</h1>
         <p class="text-[#8BACD9] font-semibold my-4">Our Equilibrium collection promotes balance and calm.</p>
 
         <div class="flex items-center justify-between mb-4">
@@ -31,12 +42,14 @@
 
         <hr class="mb-4">
 
-        <div class="flex items-center gap-8">
-            <img src="user.png" alt="" class="w-[30px] h-[30px] rounded-full">
+        <div class="flex items-center gap-4">
+            <img src="https://github.com/Benjihunt97/Equilibrium-3429/blob/main/user.png?raw=true" alt="" class="w-[30px] h-[30px] rounded-full">
 
-            <p class="text-[#8BACD text-sm">Creation of <span class="font-bold">Jules Wyvern</span></p>
+            <p class="text-[#8BACD text-sm">Creation of <span class="font-bold hover:text-[#00FFF8] cursor-pointer">Jules Wyvern</span></p>
         </div>
     </div>
+
+    <script type"text/javascript" src="app.js"></script>
     
 </body>
 </html>
